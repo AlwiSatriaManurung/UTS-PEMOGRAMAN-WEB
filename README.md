@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar Pemrograman Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-sans">
+
+  <!-- HEADER -->
+  <header class="text-center py-8">
+    <h1 class="text-4xl font-bold"> Belajar Pemrograman Web</h1>
+    <p class="mt-2 text-lg">Mengenal HTML, CSS, JavaScript, dan Tailwind
+    </p>
+  </header>
+
+  <!-- NAVIGASI -->
+  <nav class="flex justify-center space-x-6 bg-white bg-opacity-20 py-3 rounded-xl mx-10 shadow-lg">
+    <a href="#mengenal" class="hover:text-yellow-300 font-semibold">Mengenal HTML, CSS, JS & Tailwind</a>
+    <a href="#tatacara" class="hover:text-yellow-300 font-semibold">Tata Cara Membuat Website</a>
+    <a href="#kesan" class="hover:text-yellow-300 font-semibold">Kesan & Pesan</a>
+  </nav>
+
+  <!-- KONTEN -->
+  <main class="max-w-4xl mx-auto mt-10 space-y-12">
+
+    <!-- Mengenal HTML CSS JS Tailwind -->
+    <section id="mengenal" class="bg-white bg-opacity-10 p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-bold mb-3">1. Mengenal HTML, CSS, JavaScript, dan Tailwind</h2>
+      <p><span class="font-semibold">HTML (HyperText Markup Language)</span> digunakan untuk membuat struktur dasar dari halaman web.</p>
+      <p><span class="font-semibold">CSS (Cascading Style Sheets)</span> berfungsi untuk mengatur tampilan dan desain halaman web.</p>
+      <p><span class="font-semibold">JavaScript</span> memberikan interaktivitas dan logika agar web menjadi dinamis.</p>
+      <p><span class="font-semibold">Tailwind CSS</span> adalah framework CSS yang memudahkan kita membuat desain modern dengan class-class siap pakai.</p>
+    </section>
+
+    <!-- Tata Cara Membuat Website -->
+    <section id="tatacara" class="bg-white bg-opacity-10 p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-bold mb-3">2. Tata Cara Membuat Website Sederhana</h2>
+      <ol class="list-decimal list-inside space-y-1">
+        <li>Buka aplikasi <span class="font-semibold">Visual Studio Code</span>.</li>
+        <li>Buat file baru dengan nama <code>index.html</code>.</li>
+        <li>Tulis struktur dasar HTML dan hubungkan dengan Tailwind CSS.</li>
+        <li>Tambahkan konten seperti teks, gambar, dan tombol.</li>
+        <li>Simpan dan jalankan di browser untuk melihat hasilnya.</li>
+      </ol>
+    </section>
+
+    <!-- Kesan dan Pesan -->
+    <section id="kesan" class="bg-white bg-opacity-10 p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-bold mb-3">3. Kesan dan Pesan Belajar Pemrograman Web</h2>
+      <p>Kesan : Belajar pemrograman web sangat menyenangkan Kita bisa membuat sesuatu yang bermanfaat dan kreatif. Awalnya memang menantang, tapi setelah paham dasarnya, kita bisa membuat apa saja yang kita bayangkan di dunia digital.</p>
+      <p>Pesan: Jangan takut mencoba dan terus berlatih!</p>
+      
+    </section>
+  </main>
+
+ 
+</body>
+</html>
